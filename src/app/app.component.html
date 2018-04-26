@@ -1,0 +1,36 @@
+<!-- <app-navbar></app-navbar> -->
+<!-- <div class="row">
+  <div class="col s6 offset-s2">
+      <mz-card
+      class="grey darken-4 white-text"
+      [hoverable]="true">
+      <mz-card-title>
+        Card Title
+      </mz-card-title>
+      <mz-card-content>
+          <div style="display: block">
+              <canvas baseChart
+                      [datasets]="barChartData"
+                      [labels]="barChartLabels"
+                      [options]="barChartOptions"
+                      [legend]="barChartLegend"
+                      [chartType]="barChartType"
+                      (chartHover)="chartHovered($event)"
+                      (chartClick)="chartClicked($event)"></canvas>
+            </div>
+      </mz-card-content>
+    </mz-card>
+</div> -->
+<div class="flex-container">
+    <!-- <h1>CPU usage Monitor</h1>
+    <div style="background:#eee" class="row"> -->
+        <!-- <div class="col s5"> -->
+            <!-- <h4>Memory</h4> -->
+            <!-- <canvas id="mChart"></canvas> -->
+        <!-- </div> -->
+        <!-- <app-line-chart></app-line-chart>
+    </div> -->
+    <div style="background:#eee; margin: 0;" class="row">
+        <app-stock-line-chart></app-stock-line-chart>
+    </div>
+</div>

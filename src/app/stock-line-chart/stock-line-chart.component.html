@@ -1,0 +1,7 @@
+<div class="col s12 center-align">
+  <h4 *ngIf="showData">Microsoft Stock Data</h4>
+  <canvas #sChart></canvas>
+</div>
+
+
+<app-spinner [show]="showSpinner" [showText]="progressText"> </app-spinner>
